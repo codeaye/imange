@@ -1,6 +1,6 @@
 {
   "name": "imange",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An all in one solution for image manipulation for discord.js and eris devs.",
   "main": "src/index.js",
   "scripts": {
