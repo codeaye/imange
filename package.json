@@ -1,21 +1,21 @@
 {
-  "name": "discord-image-generation",
+  "name": "imange",
   "version": "1.4.7",
-  "description": "discord-image-generation is a powerfull module that allow you to generate awesome images.",
+  "description": "An all in one solution for image manipulation for discord.js and eris devs.",
   "main": "src/index.js",
   "scripts": {
     "test": "node src/index.js"
   },
-  "author": "Mr¤KayJayDee <killian.dalcin@gmail.com> (https://github.com/Mr-KayJayDee)",
+  "author": "NavWrecks",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mr-KayJayDee/discord-image-generation.git"
+    "url": "https://github.com/TheHandyUser/imange.git"
   },
   "bugs": {
-    "url": "https://github.com/Mr-KayJayDee/discord-image-generation/issues"
+    "url": "https://github.com/TheHandyUser/imange/issues"
   },
-  "homepage": "https://github.com/Mr-KayJayDee/discord-image-generation#readme",
+  "homepage": "https://github.com/TheHandyUser/imange#readme",
   "keywords": [
     "discord",
     "images",
@@ -26,7 +26,8 @@
     "jimp",
     "photo",
     "picture",
-    "drawing"
+    "drawing",
+    "imange"
   ],
   "dependencies": {
     "canvas": "^2.6.1",
