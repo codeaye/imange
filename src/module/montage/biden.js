@@ -7,7 +7,7 @@ module.exports = class Biden {
    */
   async getImage(image1) {
     if (!image1) throw new Error(`You must provide an image as an argument`);
-    const canvas = Canvas.createCanvas(770, 366);
+    const canvas = Canvas.createCanvas(555, 370);
     const ctx = canvas.getContext(`2d`);
     image1 = await Canvas.loadImage(image1);
     const background = await Canvas.loadImage(
