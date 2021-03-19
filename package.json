@@ -31,6 +31,7 @@
   ],
   "dependencies": {
     "canvas": "^2.6.1",
+    "gif.js": "^0.2.0",
     "gifencoder": "^2.0.1",
     "jimp": "^0.16.1"
   }
