@@ -2,7 +2,7 @@
 
 # imange
 
-A powerfull module that allow you to generate awesome images. This is an extension to discord-image-genration with a bunch more functions. :P
+A powerfull module that allow you to generate awesome images. This is an extension to discord-image-generation with a bunch more functions. :P
 
 
 You can download it from <a href="https://www.npmjs.com/package/imange">npmjs</a>.
@@ -28,7 +28,8 @@ Then add the effect itself:
 ```js
 const img = await new imange.[[EFFECT]]().getImage(
     message.author.displayAvatarURL(
-        { dynamic: false,
+        { 
+         dynamic: false,
          format: "png" 
         }
     )
@@ -41,7 +42,8 @@ Eg:
 ```js
 const img = await new imange.Ad().getImage(
     message.author.displayAvatarURL(
-        { dynamic: false,
+        { 
+         dynamic: false,
          format: "png" 
         }
     )
@@ -57,23 +59,28 @@ Some effects require more than one input for these you will have to give it more
 ```js
 const img = await new imange.DoubleStonk().getImage(
     message.author.displayAvatarURL(
-        { dynamic: false,
+        {
+         dynamic: false,
          format: "png" 
         },
     message.mentions.users.first().displayAvatarURL(
-        { dynamic: false,
+        {
+         dynamic: false,
          format: "png" 
         }
 )
 const attach = new Discord.MessageAttachment(img, "ad.png");
 return message.channel.send(attach);
 ```
-> Not how the DoubleStonk().getImage has been provided with two user avatars!
+> Note how the DoubleStonk().getImage has been provided with two user avatars!
 
 Result:
 ![Image Eg](imgs/doublestonks.png)
 <br>
-# Effect List
+<details>
+  <summary>All of the effects</summary>
+
+## Effect List
 
 |  Type   | No. images required |   Effect Name    |
 | :-----: | :-----------------: | :--------------: |
@@ -122,6 +129,7 @@ Result:
 | FILTERS |          1          |     Lesbian      |
 | FILTERS |          1          |    Nonbinary     |
 | FILTERS |          1          |      Sepia       |
+<details>
 
 
 
